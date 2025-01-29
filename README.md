@@ -1,4 +1,4 @@
-<video controls>
+<video controls autoplay loop>
   <source src="https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4" type="video/mp4">
   Your browser does not support the video tag. View here: [Demo Video](https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4)
 </video>
