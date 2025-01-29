@@ -1,4 +1,5 @@
-<iframe width="560" height="315" src="https://brandbot.studio/public/.tmp/2389jsd.mp4" frameborder="0" allow="autoplay"></iframe>
+[![Demo Video](demo.thumbnail.jpg)](https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4)
+
 
 ---
 
