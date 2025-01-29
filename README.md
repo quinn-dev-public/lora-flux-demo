@@ -1,7 +1,5 @@
-<video controls autoplay loop>
-  <source src="https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4" type="video/mp4">
-  Your browser does not support the video tag. View here: [Demo Video](https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4)
-</video>
+<iframe width="560" height="315" src="https://brandbot.studio/public/.tmp/2389jsd.mp4" frameborder="0" allow="autoplay"></iframe>
+
 ---
 
 Trains a LoRA model on images of a person, which you can use with Flux to generate images. Then aligns faces and combines into a video. 
