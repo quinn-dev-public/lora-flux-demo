@@ -1,0 +1,6 @@
+replicate
+opencv-python
+dlib
+Pillow
+scipy
+matplotlib
