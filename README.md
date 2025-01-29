@@ -12,7 +12,9 @@ Trains a LoRA model on images of a person, which you can use with Flux to genera
 ---
 
 ```bash
-pip install requirements.txt
+git clone https://github.com/quinn-dev-public/lora-flux-demo.git
+cd lora-flux-demo
+pip install -r requirements.txt
 ```
 ---
 
@@ -20,6 +22,8 @@ pip install requirements.txt
 ```bash
 python 01-train.py
 ```
+I added 01-train.py but did not use it. 
+
 You'll need ~20 photos of a person. Crop out any other people. The web ui will give you other caveats about hair / age. See the example input photos I used (input/), generally photos from a 10-year time period, i wasn't too careful with this.
 - Runs on an **H100 GPU** ($0.001525/sec).  
 - Training on the **20 images** in this repo with the default parameters took **11m 22s ($1.04)**.  
@@ -48,4 +52,8 @@ face-align is from https://github.com/andrewdcampbell/face-movie, I only changed
 
 ---
 
-## Step 4) python face-align/main.py -morph -images aligned_output-v1 -td 0.4 -pd 0.2 -fps 20 -out aligned_output-v1.mp4
+## Step 4) Video
+```bash
+python face-align/main.py -morph -images aligned_output-v1 -td 0.4 -pd 0.2 -fps 20 -out aligned_output-v1.mp4
+```
+
