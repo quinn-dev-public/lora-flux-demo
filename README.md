@@ -1,4 +1,4 @@
-[![Demo Video](demo.thumbnail.jpg)](https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd.mp4)
+[![Demo Video](demo.thumbnail.jpg)](https://s3.amazonaws.com/brandbot.studio/public/.tmp/2389jsd_.mp4)
 
 
 ---
